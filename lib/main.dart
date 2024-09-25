@@ -23,7 +23,7 @@ class _WeatherAppState extends State<WeatherApp> {
       cityName = _cityController.text;
 
       Random random = Random();
-      int temp = 15 + random.nextInt(16);
+      int temp = -30 + random.nextInt(116);
 
       List<String> conditions = ['Sunny', 'Cloudy', 'Rainy'];
       String condition = conditions[random.nextInt(3)];
